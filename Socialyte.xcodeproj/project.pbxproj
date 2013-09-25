@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98690FAD17F2A41600FB980D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98690FAC17F2A41600FB980D /* SystemConfiguration.framework */; };
 		9875EA8317CA9E0100EF40C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9875EA8217CA9E0100EF40C1 /* UIKit.framework */; };
 		9875EA8517CA9E0100EF40C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9875EA8417CA9E0100EF40C1 /* Foundation.framework */; };
 		9875EA8717CA9E0100EF40C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9875EA8617CA9E0100EF40C1 /* CoreGraphics.framework */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98690FAC17F2A41600FB980D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9875EA7F17CA9E0100EF40C1 /* Socialyte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socialyte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9875EA8217CA9E0100EF40C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9875EA8417CA9E0100EF40C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98690FAD17F2A41600FB980D /* SystemConfiguration.framework in Frameworks */,
 				98FD810717CAA9A800CE837C /* libsqlite3.dylib in Frameworks */,
 				98FD810517CAA7BC00CE837C /* CoreData.framework in Frameworks */,
 				98FD810117CAA6A400CE837C /* Accounts.framework in Frameworks */,
@@ -142,6 +145,7 @@
 		9875EA8117CA9E0100EF40C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				98690FAC17F2A41600FB980D /* SystemConfiguration.framework */,
 				9875EA8217CA9E0100EF40C1 /* UIKit.framework */,
 				9875EA8417CA9E0100EF40C1 /* Foundation.framework */,
 				9875EA8617CA9E0100EF40C1 /* CoreGraphics.framework */,
